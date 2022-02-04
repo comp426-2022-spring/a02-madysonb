@@ -44,6 +44,7 @@ function coinFlips(flips) {
   let f = 0
   while (f < flips) {
     results[f] = coinFlip()
+    f = f + 1
   }
   return results
 }
