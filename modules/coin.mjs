@@ -18,6 +18,8 @@ function coinFlip() {
   return Math.random() > .5 ? "Heads": "Tails"
 }
 
+export {coinFlip}
+
 /** Multiple coin flips
  * 
  * Write a function that accepts one parameter (number of flips) and returns an array of 
