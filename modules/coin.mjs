@@ -93,8 +93,19 @@ export{countFlips}
  */
 
 function flipACoin(call) {
+  let flip = coinFlip()
+  let result = ""
+  if (flip === call) {
+    result = 'win'
+  } else {
+    result = 'lose'
+  }
+
+  return {'call': call, 'flip': flip, 'result': result}
 
 }
+
+export {flipACoin}
 
 
 /** Export 
