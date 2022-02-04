@@ -4,7 +4,10 @@
   "description": "This is a simple package that emulates coin flips in several different ways.",
   "main": "flip.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit"
+    "test": "echo \"Error: no test specified\" && exit",
+    "flip": "node flip.js",
+    "flips": "node flips.js",
+    "guess": "node guess-flip.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-madysonb/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-madysonb#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-madysonb#readme",
+  "type": "module"
 }
