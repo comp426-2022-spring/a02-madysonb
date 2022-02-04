@@ -18,7 +18,6 @@ function coinFlip() {
   return Math.random() > .5 ? "heads": "tails"
 }
 
-export {coinFlip}
 
 /** Multiple coin flips
  * 
@@ -49,7 +48,6 @@ function coinFlips(flips) {
   return results
 }
 
-export {coinFlips}
 
 /** Count multiple flips
  * 
@@ -79,7 +77,6 @@ function countFlips(array) {
 
 }
 
-export{countFlips}
 
 /** Flip a coin!
  * 
@@ -105,10 +102,8 @@ function flipACoin(call) {
 
 }
 
-export {flipACoin}
-
-
 /** Export 
  * 
  * Export all of your named functions
 */
+export { coinFlip, coinFlips, countFlips, flipACoin }
