@@ -65,8 +65,21 @@ export {coinFlips}
  */
 
 function countFlips(array) {
+  let hCount = 0
+  let tCount = 0
+  for (flip in array) {
+    if (flip === 'heads') {
+      hCount += 1
+    } else {
+      tCount += 1
+    }
+  }
+
+  return {'heads': hCount, 'tails': tCount}
 
 }
+
+export{countFlips}
 
 /** Flip a coin!
  * 
