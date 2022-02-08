@@ -7,3 +7,4 @@ args['number']
 // If no argument is given, it should flip once by default.
 const number = args.number || 1
 // The result on STDOUT should be an array of all of the flips in sequence followed by an object summarizing the flips.
+console.log(number)
