@@ -9,7 +9,8 @@ let guess = args.call
 if (guess !== 'tails' & guess !== 'heads') {
     console.log('Error: no input.')
     console.log('Usage: node guess-flip --call=[heads|tails]')
-    process.exit(1)
 }
+else {
 // Compare the call with a flip and report the result to STDOUT
-console.log(flipACoin(guess))
+    console.log(flipACoin(guess))
+}
