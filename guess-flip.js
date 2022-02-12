@@ -6,7 +6,7 @@ const args = minimist(process.argv.slice(2))
 args['call']
 // If no argument is given, or something other than “heads” or “tails” is passed with --call, return an error message (see below for example).
 let guess = args.call
-if (guess !== 'tails' & guess !== 'heads') {
+if (guess !== 'tails' & guess !== 'heads' & guess !== null) {
     console.log('Error: no input.\nUsage: node guess-flip --call=[heads|tails]')
     process.exit(1)
 }
