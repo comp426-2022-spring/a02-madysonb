@@ -73,6 +73,14 @@ function countFlips(array) {
     }
   }
 
+  if (tCount == 0) {
+    return {'heads': hCount}
+  }
+
+  if (hCount == 0) {
+    return {'tails': tCount}
+  }
+
   return {'heads': hCount, 'tails': tCount}
 
 }
